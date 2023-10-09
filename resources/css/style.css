@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/*rules to apply styles, format and sizes to the article on Lugar_Fecha section */
 .Lugar_Fecha div span article {
   background-color: #353a40;
   color: white;
@@ -28,6 +29,7 @@
   font-weight: bold;
   align-items: left;
 }
+/*rules to format the footer with styles and sizes */
 .footer-items-list {
   align-items: center;
   justify-content: center;
@@ -51,6 +53,7 @@
   width: 100%;
   margin-top: 50px;
 }
+/*rules to set a black image behind the carousel and create the opacity effect */
 .image-carousel::after {
   content: "";
   display: block;
@@ -63,6 +66,7 @@
   opacity: 0.6;
   z-index: 1;
 }
+/* Rule to change the button color */
 .enviar-button {
   background-color: #95bf3b !important;
 }
