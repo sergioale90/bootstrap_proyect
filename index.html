@@ -78,9 +78,9 @@
       <h3>CONOCE A LOS <br><strong>ORADORES</strong></h3>
     </div>
     <div class="row row-cols-1 row-cols-md-3">
-      <div class="col justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
         <div class="card">
-          <img src="./resources/img/steve.jpg" class="card-img-top">
+          <img src="./resources/img/steve.jpg" class="card-img-top width: 18rem">
           <div class="card-body">
             <button type="button" class="btn btn-warning" disabled>JavaScript</button>
             <button type="button" class="btn btn-info" disabled>React</button>
@@ -91,9 +91,9 @@
           </div>
         </div>
       </div>
-      <div class="col justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
         <div class="card">
-          <img src="./resources/img/bill.jpg" class="card-img-top">
+          <img src="./resources/img/bill.jpg" class="card-img-top width: 18rem">
           <div class="card-body">
             <button type="button" class="btn btn-warning" disabled>JavaScript</button>
             <button type="button" class="btn btn-info" disabled>React</button>
@@ -104,9 +104,9 @@
           </div>
         </div>
       </div>
-      <div class="col justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center">
         <div class="card">
-          <img src="./resources/img/ada.jpeg" class="card-img-top">
+          <img src="./resources/img/ada.jpeg" class="card-img-top width: 18rem">
           <div class="card-body">
             <button type="button" class="btn btn-secondary" disabled>Negocios</button>
             <button type="button" class="btn btn-danger" disabled>Startups</button>
@@ -137,25 +137,42 @@
     </span>
   </section>
   <section id="Conviertete_Orador">
-    <div>
-      <h3>CONVIÉRTETE EN UN <br>ORADOR</h3>
-      <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+    <div class="container">
+      <div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h3>CONVIÉRTETE EN UN <br>ORADOR</h3>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="form-outline">
-      <form action="#" method="">
-        <span>
-          <input type="text" id="name" name="name" placeholder="Nombre" required class="input">
-        </span>
-        <span>
-          <input type="text" id="lastname" name="lastname" placeholder="Apellido" required class="input">
-        </span>
-        <div>
-          <textarea id="textbox" name="textbox" placeholder="Sobre qué quieres hablar?" rows="5" cols="100"></textarea>
+    <div>
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col-6">
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <textarea class="form-control" id="sobre-que" placeholder="Sobre qué quieres hablar?" rows="5"
+                  required></textarea>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col d-grid gap-2">
+                <button type="submit" class="btn btn-success enviar-button">Enviar</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <button type="submit">Enviar</button>
-        </div>
-      </form>
+      </div>
     </div>
   </section>
 
