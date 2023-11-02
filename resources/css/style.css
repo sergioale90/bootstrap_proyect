@@ -22,7 +22,7 @@
   z-index: 2;
   font-size: 1rem;
 }
-.card {
+.oradores-card {
   width: 18rem;
 }
 .btn {
@@ -69,4 +69,36 @@
 /* Rule to change the button color */
 .enviar-button {
   background-color: #95bf3b !important;
+}
+.tickets {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+.discount-card {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 18rem;
+  height: 14rem;
+}
+.tickets .col-sm-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.total-field {
+  background-color: #cce5ff;
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+}
+.form-group {
+  padding-bottom: 1rem;
+}
+#total {
+  background-color: #cce5ff;
+  text-align: left;
+}
+.col-form-label {
+  text-justify: center;
+  text-align: center;
+  height: 100%;
 }
