@@ -1,0 +1,51 @@
+.tickets {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+.discount-card {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 18rem;
+  height: 14rem;
+}
+.tickets .col-sm-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.total-field {
+  background-color: #cce5ff;
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+}
+.form-group {
+  padding-bottom: 1rem;
+}
+#total {
+  background-color: #cce5ff;
+  text-align: left;
+}
+/*rules to format the footer with styles and sizes */
+.footer-items-list {
+  align-items: center;
+  justify-content: center;
+  background-color: #1e5170;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  height: auto;
+  min-height: 5vh;
+  flex-wrap: wrap;
+}
+.footer-items-list a {
+  color: white;
+  font-style: bold;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
