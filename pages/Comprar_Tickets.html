@@ -89,8 +89,8 @@
                             <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="estudiante">¿Eres estudiante?</label>
-                            <select class="form-control" id="discount-selector">
+                            <label for="discount-selector">Categoria</label>
+                            <select class="form-select" id="discount-selector">
                                 <option value="1">Estudiante</option>
                                 <option value="2">Trainee</option>
                                 <option value="3">Junior</option>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="row g-3 align-items-center total-field">
                         <div class="col-auto">
-                            <label for="total" class="col-form-label">Total a Pagar: $</label>
+                            <label for="total" class="col form-label">Total a Pagar: $</label>
                         </div>
                         <div class="col-auto">
                             <input type="text" id="total" class="form-control" readonly>
@@ -107,10 +107,10 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col col-lg-6 d-grid">
-                            <button type="submit" class="btn btn-primary">Borrar</button>
+                            <button type="reset" class="btn btn-primary">Borrar</button>
                         </div>
                         <div class="col col-lg-6 d-grid">
-                            <button class="btn btn-primary" onclick="calculate_total()">Resumen</button>
+                            <button class="btn btn-primary" onclick="calculate_total();return false">Resumen</button>
                         </div>
                     </div>
                 </form>

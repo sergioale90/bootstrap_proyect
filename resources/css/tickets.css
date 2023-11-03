@@ -18,12 +18,23 @@
   margin: 0;
   height: 3rem;
 }
+.total-field div {
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.total-field div label {
+  margin: 0;
+}
 .form-group {
   padding-bottom: 1rem;
 }
 #total {
   background-color: #cce5ff;
   text-align: left;
+  padding: 0;
+  border: 0;
 }
 /*rules to format the footer with styles and sizes */
 .footer-items-list {
