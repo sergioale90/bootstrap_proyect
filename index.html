@@ -13,14 +13,39 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <script src="./scripts/loadHeader.js"></script>
-  <script src="./scripts/loadFooter.js"></script>
 </head>
 
 <body>
   <!--Header section with the navbar information-->
   <header>
-    <div id="header-container"></div>
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid overflow-hidden">
+        <div class="logo_Codo_Codo">
+          <img src="/resources/img/codoacodo.png" width="150">
+        </div>
+        <span class="navbar-brand"><a href="/index.html">Conf Bs As</a></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="/index.html#La_Conferencia">La
+                Conferencia</a></li>
+            <li class="nav-item active"><a class="nav-link" href="/index.html#Los_Oradores">Los Oradores</a>
+            </li>
+            <li class="nav-item active"><a class="nav-link" href="/index.html#Lugar_Fecha">El lugar y la
+                fecha</a></li>
+            <li class="nav-item active"><a class="nav-link" href="/index.html#Conviertete_Orador">Conviertete
+                en
+                Orador</a>
+            </li>
+            <li class="nav-item active"><a class="nav-link" href="/pages/Comprar_Tickets.html"
+                style="color: green">Comprar tickets</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <!--Carousel section-->
   <div class="container-fluid overflow-hidden">
@@ -162,7 +187,17 @@
   </section>
   <!--Footer section-->
   <footer>
-    <div id="footer-container"></div>
+    <div class="footer">
+      <ul class="footer-items-list">
+        <li><a href="#Preguntas_Frecuentes"> Preguntas Frecuentes</a></li>
+        <li><a href="#Contactanos"> Contáctanos</a></li>
+        <li><a href="#Prensa"> Prensa</a></li>
+        <li><a href="#Conferencias"> Conferencias</a></li>
+        <li><a href="#Terminos_Condiciones"> Términos y Condiciones</a></li>
+        <li><a href="#Privacidad"> Privacidad</a></li>
+        <li><a href="#Estudiantes"> Estudiantes</a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 
